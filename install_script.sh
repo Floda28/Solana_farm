@@ -12,4 +12,4 @@ apt-get install python3-pip -y && \
 
 cd Solana_farm && \
 
-pip3 install -r requirements.txt 
+pip3 install -r requirements.txt
