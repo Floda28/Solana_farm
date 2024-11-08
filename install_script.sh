@@ -6,3 +6,5 @@ apt-get install python3.12 -y || { echo "Не удалось установит�
 apt install python3-pip -y || { echo "Не удалось установить pip"; exit 1; }
 pip3 install -r requirements.txt || { echo "Не удалось установить зависимости"; exit 1; }
 screen -S Sonic_auto_transaction || { echo "Не удалось создать screen сессию"; exit 1; }
+
+# Пустая строка в конце файла
