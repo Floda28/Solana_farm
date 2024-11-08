@@ -1,5 +1,6 @@
 #!/bin/bash
-mkdir -p Sonic && cd Sonic
+mkdir -p Sonic  
+cd Sonic
 git clone https://github.com/Floda28/Solana_farm.git
 apt update
 apt-get install python3.12 -y
