@@ -1,7 +1,5 @@
 #!/bin/bash
 
-screen -S Sonic_auto_transaction && \
-
 git clone https://github.com/Floda28/Solana_farm.git && \
 
 apt-get update && \
